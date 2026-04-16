@@ -1,0 +1,112 @@
+{
+  "surveys": [
+    {
+      "id": "survey-001",
+      "title": "用户满意度调查问卷",
+      "description": "感谢您抽出宝贵时间参与本次调查。您的反馈将帮助我们不断改进产品和服务。",
+      "coverImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=400&fit=crop",
+      "status": "published",
+      "questions": [
+        { "id": "q1", "type": "single", "title": "您是通过什么渠道了解到我们的产品的？", "required": true, "options": [
+          { "id": "opt1", "text": "搜索引擎" },
+          { "id": "opt2", "text": "社交媒体" },
+          { "id": "opt3", "text": "朋友推荐" },
+          { "id": "opt4", "text": "广告投放" }
+        ]},
+        { "id": "q2", "type": "multiple", "title": "您使用过我们的哪些产品功能？", "required": false, "options": [
+          { "id": "opt1", "text": "数据分析" },
+          { "id": "opt2", "text": "报表导出" },
+          { "id": "opt3", "text": "团队协作" },
+          { "id": "opt4", "text": "API接口" }
+        ]},
+        { "id": "q3", "type": "dropdown", "title": "您平均每周使用我们产品的频率是？", "required": true, "options": [
+          { "id": "opt1", "text": "每天多次" },
+          { "id": "opt2", "text": "每天一次" },
+          { "id": "opt3", "text": "每周几次" },
+          { "id": "opt4", "text": "偶尔使用" }
+        ]},
+        { "id": "q4", "type": "text", "title": "您对我们产品有什么改进建议？", "placeholder": "请输入您的建议...", "required": false }
+      ],
+      "createdAt": "2024-03-01T10:00:00Z",
+      "updatedAt": "2024-03-15T14:30:00Z",
+      "responseCount": 156
+    },
+    {
+      "id": "survey-002",
+      "title": "产品体验反馈调查",
+      "description": "我们希望了解您对新功能的体验感受，以便为您提供更好的服务。",
+      "coverImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+      "status": "published",
+      "questions": [
+        { "id": "q1", "type": "single", "title": "您对我们最新发布的AI智能助手功能满意吗？", "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=300&fit=crop", "required": true, "options": [
+          { "id": "opt1", "text": "非常满意" },
+          { "id": "opt2", "text": "满意" },
+          { "id": "opt3", "text": "一般" },
+          { "id": "opt4", "text": "不满意" }
+        ]},
+        { "id": "q2", "type": "single", "title": "新界面的整体视觉效果如何？", "image": "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=600&h=300&fit=crop", "required": true, "options": [
+          { "id": "opt1", "text": "非常美观" },
+          { "id": "opt2", "text": "比较美观" },
+          { "id": "opt3", "text": "一般" },
+          { "id": "opt4", "text": "需要改进" }
+        ]},
+        { "id": "q3", "type": "multiple", "title": "您希望我们在以下哪些方面进行改进？", "required": true, "options": [
+          { "id": "opt1", "text": "加载速度" },
+          { "id": "opt2", "text": "功能丰富度" },
+          { "id": "opt3", "text": "用户界面" },
+          { "id": "opt4", "text": "客服支持" }
+        ]},
+        { "id": "q4", "type": "dropdown", "title": "如果满分是10分，您会给我们的产品打几分？", "required": true, "options": [
+          { "id": "opt1", "text": "10分 - 完美" },
+          { "id": "opt2", "text": "8-9分 - 优秀" },
+          { "id": "opt3", "text": "6-7分 - 良好" },
+          { "id": "opt4", "text": "4-5分 - 一般" }
+        ]},
+        { "id": "q5", "type": "text", "title": "请描述一个您使用产品过程中遇到的问题", "placeholder": "请详细描述遇到的问题...", "required": false }
+      ],
+      "createdAt": "2024-02-20T08:00:00Z",
+      "updatedAt": "2024-03-10T16:45:00Z",
+      "responseCount": 89
+    },
+    {
+      "id": "survey-003",
+      "title": "企业培训需求调研",
+      "description": "为了更好地规划年度培训计划，了解员工的学习需求，请认真填写此问卷。",
+      "coverImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=400&fit=crop",
+      "status": "published",
+      "questions": [
+        { "id": "q1", "type": "single", "title": "您目前的工作岗位属于哪个部门？", "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=300&fit=crop", "required": true, "options": [
+          { "id": "opt1", "text": "技术研发部" },
+          { "id": "opt2", "text": "市场营销部" },
+          { "id": "opt3", "text": "人力资源部" },
+          { "id": "opt4", "text": "财务部" },
+          { "id": "opt5", "text": "运营部" }
+        ]},
+        { "id": "q2", "type": "multiple", "title": "您希望参加以下哪些类型的培训课程？", "required": true, "options": [
+          { "id": "opt1", "text": "技术技能提升" },
+          { "id": "opt2", "text": "管理能力培养" },
+          { "id": "opt3", "text": "沟通技巧训练" },
+          { "id": "opt4", "text": "行业知识更新" },
+          { "id": "opt5", "text": "职业资格认证" }
+        ]},
+        { "id": "q3", "type": "dropdown", "title": "您更倾向于哪种培训方式？", "required": true, "options": [
+          { "id": "opt1", "text": "线上直播课程" },
+          { "id": "opt2", "text": "线上录播课程" },
+          { "id": "opt3", "text": "线下面授课程" },
+          { "id": "opt4", "text": "工作坊/研讨会" }
+        ]},
+        { "id": "q4", "type": "single", "title": "您每周能够投入多少时间进行学习？", "required": true, "options": [
+          { "id": "opt1", "text": "1-2小时" },
+          { "id": "opt2", "text": "3-5小时" },
+          { "id": "opt3", "text": "6-10小时" },
+          { "id": "opt4", "text": "10小时以上" }
+        ]},
+        { "id": "q5", "type": "text", "title": "请列出您最希望学习的具体技能或主题", "placeholder": "例如：Python编程、项目管理、数据分析等", "required": false }
+      ],
+      "createdAt": "2024-01-15T09:00:00Z",
+      "updatedAt": "2024-03-05T11:20:00Z",
+      "responseCount": 234
+    }
+  ],
+  "responses": []
+}
